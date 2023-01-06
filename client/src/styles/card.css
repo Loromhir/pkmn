@@ -1,4 +1,39 @@
 div select{
     margin-left: 50px;
     border-radius: 4px;
+    padding: 7px;
+    margin-top: 10px;
+    border: none !important;
+    background-color: white;
+    color: #31073d;
+    outline: none;
+}
+.card{
+    margin: 35px;
+    width: 17rem;
+    border-radius: 30px;
+    background: rgb(228, 225, 225);
+    box-shadow: 7px 7px 15px rgb(175, 175, 175),
+                -7px -7px 15px rgb(225, 225, 225);
+    transition: all 400ms ease;
+    box-sizing: content-box;
+    min-height: 150px;
+    outline: 5px;
+    outline-color: rgb(95, 190, 186) ;
+}
+.name-card{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.type{
+    display: flex;
+    color: #2f0e38;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.type p{
+    margin: 0px 7.5px;
 }
